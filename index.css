@@ -1,0 +1,177 @@
+/**Need this becuase the nav bar takes up 50px**/
+body{
+	padding-top: 50px;
+}
+
+.row{
+	margin-left:0px;
+	margin-right:0px;
+[class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
+
+/**NavBar Link text**/
+#navText{
+	color: #767676;
+	font-family: Verdana, Geneva, sans-serif;
+
+}
+
+/**moves the text on the carousel to the top**/
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+/**Text inside the slideshow**/
+#carousel-text{
+	color: red;
+	font-size: 28pt;
+}
+/**images inside the slideshow**/
+#bground{
+	width:100%; 
+	height:auto;
+	max-height: 600px;
+}
+
+/**What we do heading section and text below the icons**/
+#whatwedo{
+	color:#612f51;
+	font-size: 22pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.whatwedo-1{
+	color:#612f51;
+	font-size: 14pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/**description of what we do**/
+#subtext{
+	color:#767676;
+	font-size: 12pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/**tools images*/
+.tools{
+	width: 35px;
+	height: 35px;
+}
+/**What we do tools images**/
+.center{
+	display: block;
+    margin: 0 auto;
+}
+
+/**Background color for who we are section **/
+#BG{
+	background-color: #D0D0D0;
+}
+
+/**Who we are images**/
+#people{
+	width: 75%;
+	max-width: 350px;
+	height:300px;
+	display: block;
+    margin: 0 auto;
+
+}
+/**Text below people images**/
+#peopleText{
+	color:#444444;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #D0D0D0;
+}
+
+/**Our CLients background**/
+#BG-2{
+	background-color: #612f51;
+}
+/**Our CLients heading**/
+#whatwedo-2{
+	color:white;
+	font-size: 22pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/**Our clients section images**/
+.logos{
+	width: 110px;
+	height: 110px;
+} 
+
+/**adds extra space in the client section the the bottom part of the page**/
+.padding{
+	padding-top: 40px; 
+	padding-bottom: 40px;
+}
+
+/**adds extra space in the client section the the bottom part of the page**/
+.bottom{
+	padding-top: 50px; 
+	padding-bottom: 50px;
+
+}
+.contact{
+	background-color: #303030;
+}
+/**Makes the pictures in the slideshow the width of the viewport**/
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {      
+ 	width: 100%;
+    margin: auto;
+  }
+
+  .hideme
+{
+    opacity:0;
+}
+
+.image{
+	width: 90%;
+	max-width: 350px;
+	height:325px;
+	display: block;
+    margin: 0 auto;
+}
+
+.image img{
+
+width:90%;
+height:100%;
+display: block;
+    margin: 0 auto;
+
+    padding-left: 0px; padding-right: 0px;
+   
+
+}
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute; 
+	top: 0; left: 5%; right:0; bottom:0; 
+	display: none;
+	width: 90%;
+	text-align: center;
+}
+
+.image:hover .overlay{
+	display: block;
+}
+
+#imageText{  
+	font-family:Helvetica;
+    font-weight:700;
+    color:white;
+    font-size:40px;
+}
+#imageText2{  
+	font-family:Helvetica;
+    font-weight:500;
+	color:white;
+    font-size:30px;
+}
